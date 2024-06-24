@@ -1,0 +1,22 @@
+ce ar trebui sa stiu pentru AI?
+
+https://www.learnpytorch.io/03_pytorch_computer_vision/
+
+si 
+
+https://www.kaggle.com/code/alexisbcook/pipelines
+
+Stochastic Gradient Descent (SGD) optimizer	= Classification, regression, many others.	=> torch.optim.SGD()
+Adam Optimizer	= Classification, regression, many others.	=> torch.optim.Adam()
+Binary cross entropy loss	= Binary classification	=> torch.nn.BCELossWithLogits or torch.nn.BCELoss
+Cross entropy loss	= Mutli-class classification	=> torch.nn.CrossEntropyLoss
+Mean absolute error (MAE) or L1 Loss = Regression	=> torch.nn.L1Loss
+Mean squared error (MSE) or L2 Loss	= Regression	=> torch.nn.MSELoss
+
+Pentru binary, mai degraba folosesc BCELossWithLogits, care necesita aplicarea functiei torch.sigmoid pentru a fi trasnformate in probabilitati
+Pentru Multi, primesc, din nou, logits => trebuie sa folosesc torch.softmax() pe ei pentru a fi transformate in probabilitati
+
+squeeze si unsqueeze imi dau batai de cap, insa singura solutie este sa ma bat cu erorile pana ce imi iese
+
+pipelines sunt foarte op, pentru ca nu imi place prelucrarea datelor, poate nu este perfecta, dar este un f bun prim pas
+
