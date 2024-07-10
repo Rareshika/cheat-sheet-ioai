@@ -1,0 +1,5 @@
+Scripturi pentru antrenarea transformerilor:
+https://github.com/huggingface/transformers/tree/main/examples/pytorch 
+
+Exemple pentru antrenarea si folosoriea pe categorii:
+https://github.com/huggingface/notebooks/tree/main/examples
