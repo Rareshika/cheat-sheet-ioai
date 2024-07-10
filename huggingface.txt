@@ -3,3 +3,6 @@ https://github.com/huggingface/transformers/tree/main/examples/pytorch
 
 Exemple pentru antrenarea si folosoriea pe categorii:
 https://github.com/huggingface/notebooks/tree/main/examples
+
+Toate modelele pe care le-as vrea:
+https://huggingface.co/docs/transformers/main_classes/processors
